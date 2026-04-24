@@ -226,6 +226,11 @@ body.no-scroll {
     transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
 .button-icon:hover {
     transform: translateY(-1px);
 }

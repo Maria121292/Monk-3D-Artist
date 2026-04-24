@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portfolio — Monk 3D Artist</title>
+
+    <link rel="stylesheet" href="../styles/design-tokens.css" />
+    <link rel="stylesheet" href="../styles/typography.css" />
+    <link rel="stylesheet" href="../styles/layout.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/portfolio.css" />
+
+    <script src="../main/main.js" defer></script>
+    <script src="portfolio.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+
+            <a href="../main/main.html" class="logo" aria-label="Monk home">
+                <img src="../assets/logo.png" alt="Monk 3D Artist logo" class="logo__image" />
+            </a>
+
+            <nav class="nav" aria-label="Main navigation">
+                <a href="../courses/courses.html" class="button-gradient button-small">Courses</a>
+                <a href="../mentoring/mentoring.html" class="button-gradient button-small">Mentoring</a>
+                <a href="../portfolio/portfolio.html" class="button-outline button-small">Portfolio</a>
+
+                <button type="button" class="button-icon" aria-label="Language switch">
+                    <span class="button-small">↔</span>
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="page">
+
+        <!-- PAGE HERO -->
+        <section class="page-hero page-hero--portfolio">
+            <div class="container">
+
+                <nav class="breadcrumbs" aria-label="Breadcrumb">
+                    <a href="../index.html" class="breadcrumbs__link">Main Page</a>
+                    <span class="breadcrumbs__separator">•</span>
+                    <span class="breadcrumbs__current">Portfolio</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- PROJECT GALLERY -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="container">
+
+                <h1 class="portfolio-section__title h1">Portfolio</h1>
+
+                <div class="portfolio-section__slider">
+                    <button class="portfolio-section__arrow portfolio-section__arrow--prev" type="button"
+                        aria-label="Previous slide">
+                        &#8249;
+                    </button>
+
+                    <div class="portfolio-section__viewport">
+                        <div class="portfolio-section__track">
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfolio_img_1.png" alt="3D character portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfoliocarousel (1).png" alt="3D portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfoliocarousel (2).png" alt="3D portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfoliocarousel (3).png" alt="3D portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfoliocarousel (4).png" alt="3D portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfoliocarousel (5).png" alt="3D portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                            <article class="portfolio-section__slide">
+                                <div class="portfolio-section__image-wrap">
+                                    <img src="../assets/portfoliocarousel (6).png" alt="3D portfolio work"
+                                        class="portfolio-section__image" />
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <button class="portfolio-section__arrow portfolio-section__arrow--next" type="button"
+                        aria-label="Next slide">
+                        &#8250;
+                    </button>
+                </div>
+
+                <div class="portfolio-section__actions">
+                    <a href="https://www.artstation.com/" target="_blank" rel="noopener noreferrer"
+                        class="portfolio-section__button button-gradient button-large">
+                        More To Art Station
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <!-- WORKS -->
+        <section class="works-section">
+            <div class="container">
+
+                <h2 class="works-section__title h1">Works</h2>
+
+                <div class="works-section__list">
+
+                    <article class="works-section__item works-section__item--active">
+                        <button class="works-section__trigger" type="button" aria-expanded="true">
+                            <span class="works-section__icon">
+                                <span class="works-section__icon-line works-section__icon-line--horizontal"></span>
+                                <span class="works-section__icon-line works-section__icon-line--vertical"></span>
+                            </span>
+                            <span class="works-section__role">//We Are Here Now// Independent Senior 3D Artist</span>
+                        </button>
+
+                        <div class="works-section__content">
+                            <div class="works-section__content-inner">
+                                <ul class="works-section__bullets">
+                                    <li class="works-section__bullet">Developed high-end AAA portfolio projects
+                                        (environment &amp; weapon assets)</li>
+                                    <li class="works-section__bullet">Focused on advanced material studies and
+                                        production-quality detailing</li>
+                                    <li class="works-section__bullet">Delivered selected freelance 3D assets for
+                                        vertical slices</li>
+                                    <li class="works-section__bullet">Refined real-time optimization workflows and
+                                        engine integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="works-section__item">
+                        <button class="works-section__trigger" type="button" aria-expanded="false">
+                            <span class="works-section__icon">
+                                <span class="works-section__icon-line works-section__icon-line--horizontal"></span>
+                                <span class="works-section__icon-line works-section__icon-line--vertical"></span>
+                            </span>
+                            <span class="works-section__role">2019 / 2025 // Senior Lead Artist By Artmer Studio</span>
+                        </button>
+
+                        <div class="works-section__content">
+                            <div class="works-section__content-inner">
+                                <ul class="works-section__bullets">
+                                    <li class="works-section__bullet">Led environment and prop production across
+                                        multiple game projects</li>
+                                    <li class="works-section__bullet">Defined technical requirements, asset scope and
+                                        production pipelines</li>
+                                    <li class="works-section__bullet">Coordinated work of artists and maintained visual
+                                        consistency across assets</li>
+                                    <li class="works-section__bullet">Reviewed assets, optimized production workflows
+                                        and ensured engine integration</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="works-section__item">
+                        <button class="works-section__trigger" type="button" aria-expanded="false">
+                            <span class="works-section__icon">
+                                <span class="works-section__icon-line works-section__icon-line--horizontal"></span>
+                                <span class="works-section__icon-line works-section__icon-line--vertical"></span>
+                            </span>
+                            <span class="works-section__role">2017 / 2019 // Environment&amp;Weapon 3D Artist By
+                                FuryLion</span>
+                        </button>
+
+                        <div class="works-section__content">
+                            <div class="works-section__content-inner">
+                                <ul class="works-section__bullets">
+                                    <li class="works-section__bullet">Modeled and textured environment props and weapon
+                                        assets for game production</li>
+                                    <li class="works-section__bullet">Created high-poly and game-ready low-poly models
+                                        with optimized topology</li>
+                                    <li class="works-section__bullet">Produced PBR materials and texture sets for
+                                        real-time rendering</li>
+                                    <li class="works-section__bullet">Collaborated with art leads and technical artists
+                                        to meet production standards</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="works-section__item">
+                        <button class="works-section__trigger" type="button" aria-expanded="false">
+                            <span class="works-section__icon">
+                                <span class="works-section__icon-line works-section__icon-line--horizontal"></span>
+                                <span class="works-section__icon-line works-section__icon-line--vertical"></span>
+                            </span>
+                            <span class="works-section__role">2015 / 2017 // Junior 3D Artist By Poligraphy</span>
+                        </button>
+
+                        <div class="works-section__content">
+                            <div class="works-section__content-inner">
+                                <ul class="works-section__bullets">
+                                    <li class="works-section__bullet">Assisted in creation of game-ready props and
+                                        environment assets</li>
+                                    <li class="works-section__bullet">Modeled low-poly assets and prepared UV layouts
+                                        for texturing</li>
+                                    <li class="works-section__bullet">Supported asset optimization and preparation for
+                                        game engines</li>
+                                    <li class="works-section__bullet">Worked under art direction to maintain style
+                                        consistency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- CLIENT LOGOS -->
+        <section class="clients-strip" aria-label="Featured projects and studios">
+            <div class="container">
+
+                <div class="clients-strip__row">
+                    <img src="../assets/1 (1).png" alt="World of Tanks" class="clients-strip__logo" />
+                    <img src="../assets/1 (2).png" alt="Star Trek Online" class="clients-strip__logo" />
+                    <img src="../assets/1 (3).png" alt="Mafia Definitive Edition" class="clients-strip__logo" />
+                    <img src="../assets/1 (4).png" alt="Enlisted" class="clients-strip__logo" />
+                    <img src="../assets/1 (5).png" alt="The Elder Scrolls Online" class="clients-strip__logo" />
+                    <img src="../assets/1 (6).png" alt="War Thunder" class="clients-strip__logo" />
+                    <img src="../assets/1 (7).png" alt="SnowRunner" class="clients-strip__logo" />
+
+                    <img src="../assets/1 (1).png" alt="World of Tanks" class="clients-strip__logo" />
+                    <img src="../assets/1 (2).png" alt="Star Trek Online" class="clients-strip__logo" />
+                    <img src="../assets/1 (3).png" alt="Mafia Definitive Edition" class="clients-strip__logo" />
+                    <img src="../assets/1 (4).png" alt="Enlisted" class="clients-strip__logo" />
+                    <img src="../assets/1 (5).png" alt="The Elder Scrolls Online" class="clients-strip__logo" />
+                    <img src="../assets/1 (6).png" alt="War Thunder" class="clients-strip__logo" />
+                    <img src="../assets/1 (7).png" alt="SnowRunner" class="clients-strip__logo" />
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- EXPERTISE -->
+        <section class="expertise-section">
+            <div class="container">
+                <h2 class="expertise-section__title h2-upper">Core Expertise</h2>
+            </div>
+
+            <div class="expertise-section__rows">
+
+                <div class="expertise-section__marquee">
+                    <div class="expertise-section__track expertise-section__track--left">
+                        <span class="expertise-section__tag tag tag-outline tag-large">Advanced PBR Texturing &amp;
+                            Material
+                            Creation</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Team Leadership</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Pipeline Development</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">Advanced PBR Texturing &amp;
+                            Material
+                            Creation</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Team Leadership</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Pipeline Development</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">Advanced PBR Texturing &amp;
+                            Material
+                            Creation</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Team Leadership</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Pipeline Development</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">Advanced PBR Texturing &amp;
+                            Material
+                            Creation</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Team Leadership</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Pipeline Development</span>
+                    </div>
+                </div>
+
+                <div class="expertise-section__marquee">
+                    <div class="expertise-section__track expertise-section__track--right">
+                        <span class="expertise-section__tag tag tag-outline tag-large">Environment, Character &amp;
+                            Weapon
+                            Production</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">High &amp; Low Poly
+                            Modeling</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">Environment, Character &amp;
+                            Weapon
+                            Production</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">High &amp; Low Poly
+                            Modeling</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">Environment, Character &amp;
+                            Weapon
+                            Production</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">High &amp; Low Poly
+                            Modeling</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">Environment, Character &amp;
+                            Weapon
+                            Production</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">High &amp; Low Poly
+                            Modeling</span>
+                    </div>
+                </div>
+
+                <div class="expertise-section__marquee">
+                    <div class="expertise-section__track expertise-section__track--left">
+                        <span class="expertise-section__tag tag tag-outline tag-large">UV Mapping</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Baking &amp; Real-Time
+                            Optimization</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Trim Sheets &amp; Modular
+                            Systems</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">UV Mapping</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Baking &amp; Real-Time
+                            Optimization</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Trim Sheets &amp; Modular
+                            Systems</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">UV Mapping</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Baking &amp; Real-Time
+                            Optimization</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Trim Sheets &amp; Modular
+                            Systems</span>
+
+                        <span class="expertise-section__tag tag tag-outline tag-large">UV Mapping</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Baking &amp; Real-Time
+                            Optimization</span>
+                        <span class="expertise-section__tag tag tag-outline tag-large">Trim Sheets &amp; Modular
+                            Systems</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <!-- CTA -->
+        <section class="contact-cta">
+            <div class="container">
+
+                <div class="contact-cta__content">
+                    <p class="contact-cta__text h2-upper">
+                        Looking For A Reliable 3D Artist For Your Project?
+                    </p>
+
+                    <p class="contact-cta__text h2-upper">
+                        High-quality environments and assets created with game pipelines in mind.
+                        From concept to final in-engine result.
+                    </p>
+                    <p class="contact-cta__text h2-upper">
+                        Let’s talk.
+                    </p>
+
+
+                    <a href="../contacts.html" class="contact-cta__button button-white button-large">
+                        Get In Touch
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__layout">
+
+            <div class="footer__nav">
+                <a href="#" class="footer__link menu-item">Impressum</a>
+                <a href="#" class="footer__link menu-item">Datenschutz</a>
+                <a href="#" class="footer__link menu-item">Cookies</a>
+                <a href="#" class="footer__link menu-item">Contacts</a>
+            </div>
+
+            <div class="footer__payments">
+                <span class="footer__text menu-item">Visa</span>
+                <span class="footer__text menu-item">MasterCard</span>
+                <span class="footer__text menu-item">Klarna</span>
+                <span class="footer__text menu-item">BankTransfer</span>
+                <span class="footer__text menu-item">SEPA</span>
+            </div>
+
+            <div class="footer__subscribe">
+                <p class="footer__subscribe-title menu-item">Subscribe To Updates</p>
+
+                <form class="footer__subscribe-form">
+                    <input type="email" class="footer__input" placeholder="Input" aria-label="Email address" />
+                    <button type="submit" class="footer__submit button-medium">Go</button>
+                </form>
+            </div>
+
+            <div class="footer__social">
+                <div class="footer__socials">
+                    <a href="#" class="footer__social-link" aria-label="ArtStation">A</a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">I</a>
+                    <a href="#" class="footer__social-link" aria-label="YouTube">Y</a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">in</a>
+                </div>
+
+                <p class="footer__copyright menu-item">
+                    All right reserved<br />
+                    Sergei Mushtagov 2025
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+:root {
+
+    /* =========================
+   COLORS
+========================= */
+
+    --primary-100: #FCFCFC;
+    --primary-200: #D9D9D9;
+    --primary-300: #BFBFBF;
+    --primary-400: #9E9E9E;
+    --primary-500: #828282;
+    --primary-600: #5F5F5F;
+    --primary-700: #3F3F3F;
+    --primary-800: #262626;
+    --primary-900: #000000;
+
+    /* accent */
+
+    --button-gradient-start: #A21C11;
+    --button-gradient-end: #FFAE3D;
+
+
+    /* =========================
+   TYPOGRAPHY
+========================= */
+
+    --font-main: "Helvetica Now Display", Helvetica, Arial, sans-serif;
+
+
+    /* =========================
+   GRID (из Figma)
+========================= */
+
+    --grid-columns: 12;
+    --grid-gutter: 8px;
+    --grid-margin: 144px;
+
+}

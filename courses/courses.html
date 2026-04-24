@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Base Course — Monk 3D Artist</title>
+
+    <link rel="stylesheet" href="../styles/design-tokens.css" />
+    <link rel="stylesheet" href="../styles/typography.css" />
+    <link rel="stylesheet" href="../styles/layout.css" />
+    <link rel="stylesheet" href="../styles/base.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/mentoring.css" />
+    <link rel="stylesheet" href="../styles/courses.css" />
+
+    <script src="../main/main.js" defer></script>
+    <script src="courses.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+
+            <a href="../main/main.html" class="logo" aria-label="Monk home">
+                <img src="../assets/logo.png" alt="Monk 3D Artist logo" class="logo__image" />
+            </a>
+
+            <nav class="nav" aria-label="Main navigation">
+                <a href="../courses/courses.html" class="button-gradient button-small">Courses</a>
+                <a href="../mentoring/mentoring.html" class="button-gradient button-small">Mentoring</a>
+                <a href="../portfolio/portfolio.html" class="button-outline button-small">Portfolio</a>
+
+                <button type="button" class="button-icon" aria-label="Language switch">
+                    <span class="button-small">↔</span>
+                </button>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="page">
+
+        <!-- COURSE HERO -->
+        <section class="course-hero">
+            <div class="container">
+
+                <div class="course-hero__layout">
+
+                    <div class="course-hero__heading">
+                        <h1 class="course-hero__title h1">Base Course</h1>
+                        <p class="course-hero__subtitle card-title">3D Fundamentals For Production</p>
+                    </div>
+
+                    <div class="course-hero__media">
+                        <span class="course-hero__media-text">Video</span>
+                    </div>
+
+                    <div class="course-hero__actions">
+                        <a href="#tariffs" class="course-hero__button button-white button-large">
+                            To Tariffs
+                        </a>
+                    </div>
+
+                    <div class="course-hero__info">
+
+                        <div class="course-hero__labels">
+                            <p class="course-hero__label card-title-bold">Technical requirements</p>
+                            <p class="course-hero__label card-title-bold">Difficulty Level</p>
+                            <p class="course-hero__label card-title-bold">Duration</p>
+                            <p class="course-hero__label card-title-bold">Onboarding &amp; Setup Included</p>
+                        </div>
+
+                        <div class="course-hero__details">
+
+                            <div class="course-requirements">
+
+                                <article class="course-requirements__item">
+                                    <button class="course-requirements__trigger" type="button" aria-expanded="false">
+                                        <span class="course-requirements__icon" aria-hidden="true">
+                                            <svg class="icon">
+                                                <use href="../assets/icons/sprite.svg#hard-drive"></use>
+                                            </svg>
+                                        </span>
+                                        </span>
+                                        <span class="course-requirements__title card-title-bold">Hardware</span>
+                                        <span class="course-requirements__arrow">⌄</span>
+                                    </button>
+
+                                    <div class="course-requirements__content">
+                                        <div class="course-requirements__content-inner">
+                                            <ul class="course-requirements__list">
+                                                <li class="course-requirements__list-item paragraph">Modern PC or laptop
+                                                </li>
+                                                <li class="course-requirements__list-item paragraph">Graphics tablet is
+                                                    optional</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="course-requirements__item course-requirements__item--active">
+                                    <button class="course-requirements__trigger" type="button" aria-expanded="true">
+                                        <span class="course-requirements__icon" aria-hidden="true">
+                                            <svg class="icon">
+                                                <use href="../assets/icons/sprite.svg#icon-cpu"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="course-requirements__title card-title-bold">Software</span>
+                                        <span class="course-requirements__arrow">⌃</span>
+                                    </button>
+
+                                    <div class="course-requirements__content">
+                                        <div class="course-requirements__content-inner">
+                                            <ul class="course-requirements__list">
+                                                <li class="course-requirements__list-item paragraph">Blender or 3ds Max
+                                                </li>
+                                                <li class="course-requirements__list-item paragraph">Substance Painter
+                                                    or similar texturing software</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="course-requirements__item">
+                                    <button class="course-requirements__trigger" type="button" aria-expanded="false">
+                                        <span class="course-requirements__icon" aria-hidden="true">
+                                            <svg class="icon">
+                                                <use href="../assets/icons/sprite.svg#wi-fi"></use>
+                                            </svg>
+                                        </span>
+                                        <span class="course-requirements__title card-title-bold">Internet</span>
+                                        <span class="course-requirements__arrow">⌄</span>
+                                    </button>
+
+                                    <div class="course-requirements__content">
+                                        <div class="course-requirements__content-inner">
+                                            <p class="course-requirements__text paragraph">
+                                                Stable internet connection for lessons, feedback and file sharing.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </div>
+
+                            <div class="course-meta">
+
+                                <div class="course-meta__row">
+                                    <span class="course-requirements__icon" aria-hidden="true">
+                                        <svg class="icon">
+                                            <use href="../assets/icons/sprite.svg#level-black"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="course-meta__text card-title-bold">Beginner</span>
+                                </div>
+
+                                <div class="course-meta__row">
+                                    <span class="course-requirements__icon" aria-hidden="true">
+                                        <svg class="icon">
+                                            <use href="../assets/icons/sprite.svg#clipboard"></use>
+                                        </svg>
+                                    </span>
+                                    <span class="course-meta__text card-title-bold">9 Months</span>
+                                </div>
+
+                                <div class="course-meta__row course-meta__row--wide">
+                                    <span class="course-requirements__icon" aria-hidden="true">
+                                        <svg class="icon">
+                                            <use href="../assets/icons/sprite.svg#alert"></use>
+                                        </svg>
+                                    </span>
+                                    <p class="course-meta__description paragraph">
+                                        The course includes dedicated onboarding lessons. All required software is
+                                        installed and configured step by step. Interface basics and workspace setup are
+                                        covered in detail.
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- MEDIA PLACEHOLDER -->
+        <section class="mentorship-media course-media">
+            <div class="container">
+                <div class="mentorship-media__placeholder">
+                    <span class="mentorship-media__placeholder-text">Animation</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATEMENT -->
+        <section class="mentorship-statement course-statement">
+            <div class="container">
+                <h2 class="mentorship-statement__title">
+                    Create a portfolio-ready 3D model with guidance from an experienced industry artist //
+                </h2>
+            </div>
+        </section>
+
+        <!-- COURSE PIPELINE -->
+
+        <!-- COURSE PIPELINE -->
+        <section class="course-pipeline">
+            <div class="container">
+
+                <h2 class="course-pipeline__title h1">Course Pipeline</h2>
+
+                <div class="course-pipeline__list">
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">01</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">Technical Brief</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Preparation and validation of the asset in the game engine.
+                                            Materials, lighting, and visual behavior are tested. The asset is finalized
+                                            for use in a production environment.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">02</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">Base Mesh</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Rough proportional blockout model. The base mesh defines overall shape,
+                                            proportions, and silhouette. This stage may
+                                            include review and approval before further detailing.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">03</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">High-Poly</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Highly detailed model without polygon limitations. Forms, volumes, and fine
+                                            details are developed at this stage.
+                                            The high-poly model serves as the source for later production steps.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">04</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">Low-Poly</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Optimized model for real-time use.
+                                            Geometry is reduced while preserving form and silhouette readability.
+                                            Special attention is given to polygon density and
+                                            mesh efficiency.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">05</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">UV Layout</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Preparation of the model for texturing.
+                                            A clean and efficient UV layout is created without distortion or overlaps.
+                                            Proper UV structure directly affects texture
+                                            quality and optimization.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">06</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">Map Baking</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Transfer of detail from high-poly to low-poly.
+                                            Normal maps and other technical maps are generated. Correct baking preserves
+                                            visual detail without additional geometry.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">07</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">Texturing</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Creation of materials and surface properties.
+                                            Color, roughness, wear, and material logic are defined. Textures follow
+                                            physical and visual consistency rules.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                    <article class="course-pipeline__item course-pipeline__item--active">
+                        <button class="course-pipeline__trigger" type="button" aria-expanded="true">
+                            <span class="course-pipeline__control">
+                                <span class="course-pipeline__number button-medium">08</span>
+                                <span class="course-pipeline__icon" aria-hidden="true">
+                                    <svg class="chevron-down">
+                                        <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                    </svg>
+                                </span>
+                            </span>
+
+                            <span class="course-pipeline__body">
+                                <span class="course-pipeline__name card-title-bold">Engine Integration</span>
+                                <span class="course-pipeline__content">
+                                    <span class="course-pipeline__content-inner">
+                                        <span class="course-pipeline__text paragraph">
+                                            Preparation and validation of the asset in the game engine. Materials,
+                                            lighting, and
+                                            visual behavior are tested. The asset is finalized for use in a production
+                                            environment.
+                                        </span>
+                                    </span>
+                                </span>
+                            </span>
+                        </button>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- STUDENTS WORKS -->
+        <section class="students-works course-students">
+            <div class="container">
+
+                <div class="students-works__slider">
+                    <button class="student-slider__arrow student-slider__arrow--prev" type="button"
+                        aria-label="Previous student work">
+                        &#8249;
+                    </button>
+
+                    <div class="student-slider__content">
+                        <div class="student-slider__preview">
+                            <div class="student-slider__image-placeholder course-students__image">
+                                <img src="../assets/student-work-01.jpg" alt="Student car render"
+                                    class="course-students__img" />
+                            </div>
+
+                            <div class="student-slider__meta">
+                                <p class="student-slider__project card-title-bold">Base Course</p>
+                                <p class="student-slider__name">Mark Scholler</p>
+                                <a href="#student-works" class="button-white button-small student-slider__button">
+                                    More To ArtStation
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="student-slider__title-wrap">
+                            <h2 class="student-slider__title h1">Students Works</h2>
+                        </div>
+                    </div>
+
+                    <button class="student-slider__arrow student-slider__arrow--next" type="button"
+                        aria-label="Next student work">
+                        &#8250;
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TARIFFS -->
+        <section class="course-tariffs" id="tariffs">
+            <div class="container">
+
+                <h2 class="course-tariffs__title h2-upper">Tariffs</h2>
+
+                <div class="course-tariffs__cards">
+
+                    <article class="course-tariff-card">
+                        <p class="course-tariff-card__label card-subtitle">Mentored</p>
+                        <p class="course-tariff-card__price card-title-large">€749</p>
+
+                        <ul class="course-tariff-card__features">
+                            <li class="course-tariff-card__feature paragraph">Personal portfolio-focused work</li>
+                            <li class="course-tariff-card__feature paragraph">One-on-one mentor feedback</li>
+                            <li class="course-tariff-card__feature paragraph">Personalized recommendations</li>
+                            <li class="course-tariff-card__feature paragraph">Help with production decisions and
+                                workflow</li>
+                        </ul>
+
+                        <a href="#buy-mentored" class="course-tariff-card__button button-white button-medium">
+                            Add To Cart
+                        </a>
+                    </article>
+
+                    <article class="course-tariff-card ">
+                        <p class="course-tariff-card__label card-subtitle">Guided</p>
+                        <p class="course-tariff-card__price card-title-large">€349</p>
+                        <p class="course-tariff-card__note paragraph">
+                            Balanced option with feedback and guidance.
+                        </p>
+
+                        <ul class="course-tariff-card__features">
+                            <li class="course-tariff-card__feature paragraph">Full course access</li>
+                            <li class="course-tariff-card__feature paragraph">Regular assignments</li>
+                            <li class="course-tariff-card__feature paragraph">Written feedback on your work</li>
+                            <li class="course-tariff-card__feature paragraph">Community / group support</li>
+                        </ul>
+
+                        <a href="#buy-guided" class="course-tariff-card__button button-white button-medium">
+                            Add To Cart
+                        </a>
+                    </article>
+
+                    <article class="course-tariff-card">
+                        <p class="course-tariff-card__label card-subtitle">Self-Paced</p>
+                        <p class="course-tariff-card__price card-title-large">€149</p>
+                        <p class="course-tariff-card__note paragraph">
+                            For independent learners who prefer to move at their own pace.
+                        </p>
+
+                        <ul class="course-tariff-card__features">
+                            <li class="course-tariff-card__feature paragraph">Full course at a slower schedule</li>
+                            <li class="course-tariff-card__feature paragraph">Lifetime access to updates</li>
+                            <li class="course-tariff-card__feature paragraph">No feedback or mentorship</li>
+                        </ul>
+
+                        <a href="#buy-self-paced" class="course-tariff-card__button button-white button-medium">
+                            Add To Cart
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="course-faq">
+            <div class="container">
+
+                <div class="course-faq__layout">
+
+                    <div class="course-faq__intro">
+                        <h2 class="course-faq__title h1">
+                            Any<br />
+                            Questions<br />
+                            Left?
+                        </h2>
+
+                        <a href="#consultation" class="course-faq__button button-white button-medium">
+                            Personal Consultation
+                        </a>
+                    </div>
+
+                    <div class="course-faq__list">
+
+                        <article class="course-pipeline__item">
+                            <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                                <span class="course-pipeline__control">
+                                    <span class="course-pipeline__number button-medium">01</span>
+                                    <span class="course-pipeline__icon" aria-hidden="true">
+                                        <svg class="chevron-down">
+                                            <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+
+                                <span class="course-pipeline__body">
+                                    <span class="course-pipeline__name card-title-bold">Do I need prior 3D
+                                        experience?</span>
+                                    <span class="course-pipeline__content">
+                                        <span class="course-pipeline__content-inner">
+                                            <span class="course-pipeline__text paragraph">
+                                                No. The course is designed as a starting point and covers all core
+                                                concepts
+                                                step by step.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </article>
+
+                        <article class="course-pipeline__item">
+                            <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                                <span class="course-pipeline__control">
+                                    <span class="course-pipeline__number button-medium">02</span>
+                                    <span class="course-pipeline__icon" aria-hidden="true">
+                                        <svg class="chevron-down">
+                                            <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+
+                                <span class="course-pipeline__body">
+                                    <span class="course-pipeline__name card-title-bold">What software is
+                                        required?</span>
+                                    <span class="course-pipeline__content">
+                                        <span class="course-pipeline__content-inner">
+                                            <span class="course-pipeline__text paragraph">
+                                                Blender or 3ds Max for modeling, and Substance Painter (or equivalent)
+                                                for
+                                                texturing. Setup is covered in onboarding
+                                                lessons.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </article>
+
+                        <article class="course-pipeline__item">
+                            <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                                <span class="course-pipeline__control">
+                                    <span class="course-pipeline__number button-medium">03</span>
+                                    <span class="course-pipeline__icon" aria-hidden="true">
+                                        <svg class="chevron-down">
+                                            <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+
+                                <span class="course-pipeline__body">
+                                    <span class="course-pipeline__name card-title-bold">How much time does the course
+                                        take?</span>
+                                    <span class="course-pipeline__content">
+                                        <span class="course-pipeline__content-inner">
+                                            <span class="course-pipeline__text paragraph">
+                                                On average, 3–4 hours per day for lessons and practice.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </article>
+
+                        <article class="course-pipeline__item">
+                            <button class="course-pipeline__trigger" type="button" aria-expanded="false">
+                                <span class="course-pipeline__control">
+                                    <span class="course-pipeline__number button-medium">04</span>
+                                    <span class="course-pipeline__icon" aria-hidden="true">
+                                        <svg class="chevron-down">
+                                            <use href="../assets/icons/sprite.svg#chevron-down"></use>
+                                        </svg>
+                                    </span>
+                                </span>
+
+                                <span class="course-pipeline__body">
+                                    <span class="course-pipeline__name card-title-bold">Will I receive feedback on my
+                                        work?</span>
+                                    <span class="course-pipeline__content">
+                                        <span class="course-pipeline__content-inner">
+                                            <span class="course-pipeline__text paragraph">
+                                                Yes. The course includes regular feedback on assignments, Q&A sessions,
+                                                and
+                                                additional support after completion.
+                                            </span>
+                                        </span>
+                                    </span>
+                                </span>
+                            </button>
+                        </article>
+
+
+
+
+                    </div>
+
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__layout">
+
+            <div class="footer__nav">
+                <a href="#" class="footer__link menu-item">Impressum</a>
+                <a href="#" class="footer__link menu-item">Datenschutz</a>
+                <a href="#" class="footer__link menu-item">Cookies</a>
+                <a href="#" class="footer__link menu-item">Contacts</a>
+            </div>
+
+            <div class="footer__payments">
+                <span class="footer__text menu-item">Visa</span>
+                <span class="footer__text menu-item">MasterCard</span>
+                <span class="footer__text menu-item">Klarna</span>
+                <span class="footer__text menu-item">BankTransfer</span>
+                <span class="footer__text menu-item">SEPA</span>
+            </div>
+
+            <div class="footer__subscribe">
+                <p class="footer__subscribe-title menu-item">Subscribe To Updates</p>
+
+                <form class="footer__subscribe-form">
+                    <input type="email" class="footer__input" placeholder="Input" aria-label="Email address" />
+                    <button type="submit" class="footer__submit button-medium">Go</button>
+                </form>
+            </div>
+
+            <div class="footer__social">
+                <div class="footer__socials">
+                    <a href="#" class="footer__social-link" aria-label="ArtStation">A</a>
+                    <a href="#" class="footer__social-link" aria-label="Instagram">I</a>
+                    <a href="#" class="footer__social-link" aria-label="YouTube">Y</a>
+                    <a href="#" class="footer__social-link" aria-label="LinkedIn">in</a>
+                </div>
+
+                <p class="footer__copyright menu-item">
+                    All right reserved<br />
+                    Sergei Mushtagov 2025
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
